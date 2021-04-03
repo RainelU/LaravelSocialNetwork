@@ -1,6 +1,6 @@
 
 [![Laravel 
-Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://sleepy-brushlands-97842.herokuapp.com/)
+Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)]
 
 ### Red Social Laravel 7
 
@@ -20,4 +20,4 @@ Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://
 
 #### Funcionamiento
 
-La aplicación se nutre de **Laravel**. Cada vez que se realiza un registro o login dependiendo del rango que cuente el usuario se desplegaran diferentes vistas, la plataforma permite realizar mensajes y agregar amigos en aso que no tengas, puedes tambien recibir notificaciones de mensajes, cambiar imagen de usuario, visualizar amigos conectados, visualizar (en caso que seas adm) personas conectadas, entre otras particularidades que posee una plataforma de Red Social.
+La aplicación se nutre de **Laravel**. Cada vez que se realiza un registro o login dependiendo del rango que cuente el usuario se desplegaran diferentes vistas, la plataforma permite realizar mensajes y agregar amigos en caso que no tengas, puedes tambien recibir notificaciones de mensajes, cambiar imagen de usuario, visualizar amigos conectados, visualizar (en caso que seas adm) personas conectadas, entre otras particularidades que posee una plataforma de Red Social.
