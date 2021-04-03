@@ -2,7 +2,7 @@
 [![Laravel 
 Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://sleepy-brushlands-97842.herokuapp.com/)
 
-### Red Social Laravel 7 /
+### Red Social Laravel 7
 
 [![Build Status](https://travis-ci.org/patamimbre/sptorrent-api.svg?branch=master)](https://travis-ci.org/patamimbre/sptorrent-api)
 
