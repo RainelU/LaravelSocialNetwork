@@ -9,29 +9,15 @@ Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://
 #### Introducción 
 
 * **PHP 7** como lenguaje de programación.
-* **Laravel 7** como framework para la API.
-* **Mysql**
+* **Laravel 7** como framework.
+* **Mysql** como base de datos.
 
 ### Uso
 
-#### Uso básico
-* Para correr la aplicación usa `docker-compose up`. 
-* Accede a la aplicación en `0.0.0.0`
-(https://github.com/patamimbre/IV_Trabajos/blob/master/iaas.md). 
-
-Despliegue final: floral-tree-92.westus.cloudapp.azure.com
+#### USUARIO Y CONTRASEÑA PARA ENTRAR COMO ADMINISTRADOR
+* laravel@raineldev.com - User
+* asd123 - Password
 
 #### Funcionamiento
 
-La aplicación se nutre de [](http://www.divxtotal2.net). Cada vez que se realiza una búsqueda, la API busca directamente en esta web los resultados coincidentes y estos son almacenados en la base de datos local. 
-
-Cada uno de los resultados es guardado con un *ID identificativo*. Cuando se accede a */entry/<ID>*, la aplicación busca los enlaces a la serie indicada y los muestra al usuario.
-
-Los resultados son mostrados en una página web muy simple. Si se desean en *JSON* basta con añadir al final de la dirección web **?json=yes**.
-
-#### Documentos para el despliegue y desarrollo de la aplicación.
-
-[PaaS - Despliegue en Heroku](https://github.com/patamimbre/IV_Trabajos/blob/master/paas.md)
-
-[IaaS - Despliegue en Azure](https://github.com/patamimbre/IV_Trabajos/blob/master/iaas.md)
-
+La aplicación se nutre de **Laravel**. Cada vez que se realiza un registro o login dependiendo del rango que cuente el usuario se desplegaran diferentes vistas, la plataforma permite realizar mensajes y agregar amigos en aso que no tengas, puedes tambien recibir notificaciones de mensajes, cambiar imagen de usuario, visualizar amigos conectados, visualizar (en caso que seas adm) personas conectadas, entre otras particularidades que posee una plataforma de Red Social.
