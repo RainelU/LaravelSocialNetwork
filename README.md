@@ -1,15 +1,8 @@
-![Repository Logo](img/site-banner.png)
-### Dockerized Sinatra / Mongoid App over Puma via Foreman
+### Red Social Laravel 7 /
 
 [![Build Status](https://travis-ci.org/patamimbre/sptorrent-api.svg?branch=master)](https://travis-ci.org/patamimbre/sptorrent-api)
 
 #### Introducción 
-
-La aplicación ha sido desarrollada según los conocimientos adquiridos en la asignatura **Infraestructura Virtual** impartida en la UGR. 
-
-Su principal funcionamiento es buscar en la web enlaces torrent a series y películas.
-
-Para su desarrollo, se han empleado distintas tecnologías:
 
 * **Ruby** como lenguaje de programación.
 * **Sinatra** como framework para la API.
@@ -28,16 +21,9 @@ Para su desarrollo, se han empleado distintas tecnologías:
 * Accede a la aplicación en `0.0.0.0`
 
 #### Rutas para el uso de la aplicación
-* `0.0.0.0/status` devuelve el estado de la aplicación (JSON)
-* `0.0.0.0/search/<nombre>` busca series y películas
-* `0.0.0.0/search/<nombre>?json=yes` busca series y películas (Devuelve un JSON con las coincidencias)
-* `0.0.0.0/entry/<id>` muestra los enlaces de descarga
-* `0.0.0.0/entry/<id>?json=yes` muestra los enlaces de descarga (como JSON)
-* `0.0.0.0/all/` muestra la base de datos actual
 
-#### Despliegue en Heroku
 [![Heroku 
-Deploy](https://www.herokucdn.com/deploy/button.svg)](https://sleepy-brushlands-97842.herokuapp.com/)
+Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://sleepy-brushlands-97842.herokuapp.com/)
 
 Despliegue https://blooming-caverns-15858.herokuapp.com
 
