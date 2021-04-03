@@ -1,0 +1,248 @@
+span li a {
+	color: #00fc;
+}
+
+button {
+	color: rgba(100,255,255,0.14);
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+
+.font-aw{
+	font-family: 'Font Awesome';
+}
+
+.p-notification{
+	font-family: 'monospace';
+	font-size: 14px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.display-flex{
+	display: flex;
+}
+
+.img-active{
+	border-radius: 50% !important;
+}
+
+.button-online:after{
+	content: "";
+	width: 28px;
+	height: 28px;
+	background-color: green;
+	border-radius: 50%;
+	border: 6px solid white;
+	position: absolute;
+}
+
+.button-online-friend:before{
+	content: "";
+	width: 28px;
+	height: 28px;
+	background-color: green;
+	border-radius: 50%;
+	border: 6px solid white;
+	position: absolute;
+}
+
+.button-offline-friend:before{
+	content: "";
+	width: 28px;
+	height: 28px;
+	background-color: gray;
+	border-radius: 50%;
+	border: 6px solid white;
+	position: absolute;
+}
+
+.losiento{
+	background-color: black;
+	height: 500px;
+}
+
+.pos-ab{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.img-avatar{
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 50%;	
+	transform: translateX(-50%);
+	box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+}
+
+.w100{
+	width: 100% !important;
+}
+
+.center-relative{
+	position: relative;
+	left: 50%;	
+	transform: translateX(-50%);
+}
+
+.text-align-center{
+	width: 100%;
+	text-align: center;
+}
+
+#files{
+	display: none;
+}
+
+.box-message, #box-message{
+	border: 1px solid black;
+}
+
+.chat-message{
+	color: blue;
+}
+
+textarea{
+	width: 100%;
+	height: 20px;
+}
+
+.flex{
+	display: flex;
+}
+
+.custom-btn{
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.img{
+	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.img-notification{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.input-label{
+	width: 100%;
+	text-align: center;
+}
+
+.icon-whatever{
+	margin-right: 20px;
+}
+
+.disnone{
+	display: none;
+}
+
+.disblock{
+	display: block;
+}
+
+.icon-whatever:before{
+	content: "\bb";
+	position: absolute;
+	margin-left: -5px;	
+}
+
+.margin-top-10px{
+	margin-top: 10px;
+}
+
+.hover{
+	padding: 10px;
+}
+
+.hover:hover{
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.friendDiv{
+	width: 100px;
+}
+
+.friendA{
+	color: black;
+	text-decoration-color: none;
+	text-decoration: none;
+}
+
+.friendA:hover{
+	color: black;
+	text-decoration-color: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.friendAcomodar{
+	margin-top: 5px;
+}
+
+.bg{
+	text-align: center;
+	border-radius: 5px;
+}
+
+.text-modified{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	background-color: white;
+	font-family: 'sans';
+	color: black;
+	font-size: 12px;
+}
+
+@media (min-width: 600px) {
+	.nav-absolute{
+		position: absolute;
+		z-index: 1;
+	}
+}
+
+@media (max-width: 599px) {
+	.nav-media{
+		position: relative;
+		display: flex;
+	}
+
+	.nav{
+		display: block;
+	}
+}
+
+@media (max-width: 441px){
+    .top-right{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        right: 10px;
+        top: 60px;
+        font-size: 8px;
+    }
+    .top-left{
+        width: 0 auto;
+        text-align: center;
+    }
+}
+
