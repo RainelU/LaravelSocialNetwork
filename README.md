@@ -1,6 +1,6 @@
 
 ![Laravel 
-Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)]
+Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)
 
 ### Red Social Laravel 7
 
