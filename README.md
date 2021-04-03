@@ -1,44 +1,22 @@
+
+(https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://sleepy-brushlands-97842.herokuapp.com/)
+
 ### Red Social Laravel 7 /
 
 [![Build Status](https://travis-ci.org/patamimbre/sptorrent-api.svg?branch=master)](https://travis-ci.org/patamimbre/sptorrent-api)
 
 #### Introducción 
 
-* **Ruby** como lenguaje de programación.
-* **Sinatra** como framework para la API.
-* **Puma** como servidor web Rack.
-* **MongoDB** como base de datos.
-* **Mongoid** como framework ODM (Object-Document-Mapper).
-* **Foreman**
-* **Rake**
-* **Travis CI** para integración continua.
-* **Docker** y **Docker Compose**
+* **PHP 7** como lenguaje de programación.
+* **Laravel 7** como framework para la API.
+* **Mysql**
 
 ### Uso
 
 #### Uso básico
 * Para correr la aplicación usa `docker-compose up`. 
 * Accede a la aplicación en `0.0.0.0`
-
-#### Rutas para el uso de la aplicación
-
-[![Heroku 
-Deploy](https://miro.medium.com/max/1400/1*_-vJQqeCmpw-kghDFX8yJw.png)](https://sleepy-brushlands-97842.herokuapp.com/)
-
-Despliegue https://blooming-caverns-15858.herokuapp.com
-
-#### Despliegue en Zeit
-
-Contenedor https://sptorrent-api-rqkodvifnc.now.sh
-
-#### Contenedor en DockerHub
-
-https://hub.docker.com/r/patamimbre/sptorrent-api/
-
-`docker pull patamimbre/sptorrent-api`
-
-#### Despliegue en Azure
-Dado que mi aplicación requiere de dos contenedores para funcionar (API y mongodb) **no era posible su correcto despliegue en Zeit o Heroku**. Quedaba claro que necesitaba algo más poderoso, y lo he conseguido creando una máquina virtual. Los pasos están desarrollados en [este documento](https://github.com/patamimbre/IV_Trabajos/blob/master/iaas.md). 
+(https://github.com/patamimbre/IV_Trabajos/blob/master/iaas.md). 
 
 Despliegue final: floral-tree-92.westus.cloudapp.azure.com
 
